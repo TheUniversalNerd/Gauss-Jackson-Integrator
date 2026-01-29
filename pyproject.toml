@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "gauss-jackson"
+name = "gauss-jackson-integrator"
 version = "0.1.0"
 description = "Gauss Jackson Integrator"
 authors = ["Your Name <you@example.com>"]

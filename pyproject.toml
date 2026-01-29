@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Gauss Jackson Integrator"
 authors = ["Your Name <you@example.com>"]
 packages = [
-    { include = "python_solver" }
+    { include = "gauss_jackson" }
 ]
 
 [tool.poetry.dependencies]

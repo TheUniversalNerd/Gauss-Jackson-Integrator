@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "gauss-jackson"
+version = "0.1.0"
+description = "Gauss Jackson Integrator"
+authors = ["Your Name <you@example.com>"]
+packages = [
+    { include = "python_solver" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.0"  # The script likely depends on numpy

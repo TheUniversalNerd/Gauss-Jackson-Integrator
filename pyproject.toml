@@ -12,5 +12,4 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-numpy = "^1.0"  # The script likely depends on numpy
+
